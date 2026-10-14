@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="mr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f7f2" />
+    <meta name="description" content="स्वर एआय — मराठीत बोला, सरकारी सेवांची माहिती सोप्या भाषेत समजून घ्या." />
+    <title>स्वर एआय — सरकारी सेवा, आता सोप्या मराठीत</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Hind:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=sidebar-expands-chat-20261014" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="मुख्य मेनू">
+        <a class="brand" href="#home" aria-label="स्वर एआय मुख्यपृष्ठ">
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 17c4-9 7 9 11 0s7 9 11 0"/><path d="M16 5v4M16 23v4"/></svg></span>
+          <span class="brand-name" id="brand"><span id="brandTitle">स्वर</span><span id="brandSuffix">_एआय</span><small id="brandTagline">सेवा तुमच्या भाषेत</small></span>
+        </a>
+        <button class="new-chat" id="newChat"><span>＋</span> नवीन प्रश्न विचारा</button>
+        <p class="side-label" id="sideLabel">तुमच्यासाठी</p>
+        <nav class="side-nav">
+          <a class="nav-item active" href="#home"><span class="nav-icon">⌂</span> मुख्यपृष्ठ</a>
+          <a class="nav-item" href="#services"><span class="nav-icon">▤</span> सरकारी सेवा</a>
+          <a class="nav-item" href="#how"><span class="nav-icon">ⓘ</span> कसे वापरावे?</a>
+        </nav>
+        <p class="side-label history-label" id="historyLabel">मागील चॅट</p>
+        <div class="chat-history" id="chatHistory" aria-label="मागील चॅट"></div>
+        <p class="history-note" id="historyNote">चॅट फक्त या ब्राउझरमध्ये जतन होतात.</p>
+        <div class="sidebar-bottom">
+          <div class="help-card"><span class="help-icon">✳</span><p>योग्य माहिती,<br /><strong>योग्य स्रोतांसह.</strong></p><small>प्रत्येक उत्तरासोबत अधिकृत दुवा.</small></div>
+        </div>
+      </aside>
+      <button class="sidebar-backdrop" id="sidebarBackdrop" aria-label="साइडबार बंद करा" tabindex="-1"></button>
+
+      <main class="main-content" id="home">
+        <header class="topbar">
+          <div class="breadcrumbs"><button class="history-trigger" id="historyTrigger" aria-label="साइडबार बंद करा" title="साइडबार">☰</button><span id="crumbBrand">स्वर_एआय</span><span class="crumb-sep">/</span><strong id="crumbAssistant">सहाय्यक</strong></div>
+          <div class="top-actions"><span class="privacy-pill"><span></span> तुमची माहिती सुरक्षित</span><label class="language-select"><span class="language-icon">文</span><select id="language" aria-label="भाषा निवडा"><option value="mr">मराठी</option><option value="hi">हिन्दी</option><option value="en">English</option></select><span class="chevron">⌄</span></label></div>
+        </header>
+
+        <section class="welcome" id="welcome">
+          <div class="eyebrow"><span class="eyebrow-line"></span> तुमचा डिजिटल सेवा साथी <span class="eyebrow-line"></span></div>
+          <h1>सरकारी सेवा,<br /><span>आता सोप्या मराठीत.</span></h1>
+          <p class="welcome-copy">नमस्कार! तुम्हाला कोणत्या सरकारी सेवेबद्दल माहिती हवी आहे?<br class="desktop-break" /> बोला किंवा खाली तुमचा प्रश्न लिहा.</p>
+          <div class="prompt-chips" id="promptChips">
+            <button class="prompt-chip" data-question="उत्पन्नाचा दाखला कसा काढायचा?">📄 <span>उत्पन्नाचा दाखला</span><span class="chip-arrow">↗</span></button>
+            <button class="prompt-chip" data-question="रेशन कार्डसाठी कोणती कागदपत्रे लागतात?">🪪 <span>रेशन कार्ड</span><span class="chip-arrow">↗</span></button>
+            <button class="prompt-chip" data-question="शासकीय योजनांची माहिती कुठे मिळेल?">🌱 <span>सरकारी योजना</span><span class="chip-arrow">↗</span></button>
+          </div>
+        </section>
+
+        <section class="conversation" id="conversation" aria-live="polite" aria-label="संभाषण"></section>
+
+        <section class="composer-wrap" aria-label="प्रश्न विचारा">
+          <div class="composer" id="composer">
+            <textarea id="questionInput" rows="1" placeholder="तुमचा प्रश्न मराठीत लिहा..." aria-label="तुमचा प्रश्न"></textarea>
+            <div class="composer-tools">
+              <span class="input-hint"><span class="keyboard-icon">↵</span> पाठवण्यासाठी Enter दाबा</span>
+              <div class="composer-buttons"><button class="mic-button" id="micButton" aria-label="आवाजाने प्रश्न विचारा" title="आवाजाने प्रश्न विचारा"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21m-4 0h8"/></svg></button><button class="send-button" id="sendButton" aria-label="प्रश्न पाठवा"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 14-7-4 14-3-6-7-1Z"/><path d="m12 13 7-8"/></svg></button></div>
+            </div>
+          </div>
+          <p class="composer-note"><span>✦</span> स्वर एआय माहिती समजून घेण्यासाठी मदत करतो. अंतिम माहितीसाठी अधिकृत स्रोत तपासा.</p>
+        </section>
+      </main>
+    </div>
+    <section class="voice-modal" id="voiceModal" role="dialog" aria-modal="true" aria-label="स्वर एआय आवाज सहाय्यक">
+      <button class="voice-backdrop" id="voiceBackdrop" aria-label="बंद करा"></button>
+      <div class="voice-card">
+        <button class="voice-close" id="voiceClose" aria-label="आवाज सहाय्यक बंद करा" title="बंद करा">×</button>
+        <div class="voice-brand-mark" aria-hidden="true">〰</div>
+        <p class="voice-eyebrow" id="voiceEyebrow">स्वर एआय आवाज सहाय्यक</p>
+        <h2 id="voiceTitle">बोलून विचारा</h2>
+        <p class="voice-prompt" id="voicePrompt">प्रश्न विचारण्यासाठी खालील माइकवर क्लिक करा.</p>
+        <button class="voice-start" id="voiceStart" aria-label="माइकवर क्लिक करून विचारा" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><g class="voice-mic-icon"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21m-4 0h8"/></g><rect class="voice-stop-icon" x="8" y="8" width="8" height="8" rx="1"/></svg>
+        </button>
+        <p class="voice-hint" id="voiceHint">मराठी, हिन्दी किंवा English मध्ये बोला</p>
+        <div class="voice-transcript" id="voiceTranscript" role="log" aria-live="polite" aria-label="Voice conversation"></div>
+        <p class="voice-status" id="voiceStatus" aria-live="polite"></p>
+      </div>
+    </section>
+    <div class="toast" id="toast" role="status"></div>
+    <script src="app.js?v=conversation-memory-20261014"></script>
+  </body>
+</html>

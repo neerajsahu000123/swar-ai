@@ -1,0 +1,28 @@
+INFO:     Started server process [27048]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Gemini Live voice request failed (APIError)
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\SWAR_AI\BACKEND\.venv\Lib\site-packages\google\genai\live.py", line 1107, in connect
+    raw_response = await ws.recv(decode=False)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\SWAR_AI\BACKEND\.venv\Lib\site-packages\websockets\asyncio\connection.py", line 324, in recv
+    raise self.protocol.close_exc from self.recv_exc
+websockets.exceptions.ConnectionClosedError: received 1011 (internal error) You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h; then sent 1011 (internal error) You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\SWAR_AI\BACKEND\services\gemini_audio.py", line 74, in generate_voice_answer
+    async with client.aio.live.connect(model=model, config=config) as session:
+               ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\SWAR_AI\BACKEND\.venv\Lib\site-packages\google\genai\live.py", line 1117, in connect
+    errors.APIError.raise_error(code, reason, None)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Desktop\SWAR_AI\BACKEND\.venv\Lib\site-packages\google\genai\errors.py", line 188, in raise_error
+    raise cls(status_code, response_json, response)
+google.genai.errors.APIError: 1011 None. You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h

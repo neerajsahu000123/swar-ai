@@ -1,0 +1,275 @@
+[
+  {
+    "id": "aaple-sarkar-income-certificate",
+    "title": "Income certificate / उत्पन्नाचा दाखला / आय प्रमाणपत्र",
+    "jurisdiction": "Maharashtra",
+    "status": "draft",
+    "source_title": "Aaple Sarkar — Government of Maharashtra",
+    "source_url": "https://aaplesarkar.mahaonline.gov.in/",
+    "verified_at": null,
+    "keywords": [
+      "उत्पन्न",
+      "दाखला",
+      "आय प्रमाणपत्र",
+      "income",
+      "certificate",
+      "आय",
+      "income certificate"
+    ],
+    "content": {
+      "mr": {
+        "summary": "आपले सरकार हे महाराष्ट्र शासनाचे सेवा पोर्टल आहे. उत्पन्नाच्या दाखल्याची उपलब्धता, पात्रता, कागदपत्रे आणि प्रक्रिया पोर्टलवरील संबंधित सेवा सूचनेत तपासावी. या नोंदीत सध्याची कागदपत्र यादी किंवा कालमर्यादा पडताळलेली नाही.",
+        "steps": "पोर्टल उघडा; उत्पन्न प्रमाणपत्र सेवा शोधा; सध्याच्या अधिकृत सूचनांनुसार पुढे जा.",
+        "limitations": "या नोंदीत आवश्यक कागदपत्रे, शुल्क, पात्रता आणि प्रक्रिया कालावधी पुष्टी केलेला नाही."
+      },
+      "hi": {
+        "summary": "आपले सरकार महाराष्ट्र सरकार का सेवा पोर्टल है। आय प्रमाणपत्र की उपलब्धता, पात्रता, दस्तावेज़ और प्रक्रिया पोर्टल पर संबंधित सेवा की आधिकारिक सूचना में जाँचें। इस रिकॉर्ड में वर्तमान दस्तावेज़ सूची या समय-सीमा सत्यापित नहीं है।",
+        "steps": "पोर्टल खोलें; आय प्रमाणपत्र सेवा खोजें; मौजूदा आधिकारिक निर्देशों के अनुसार आगे बढ़ें।",
+        "limitations": "इस रिकॉर्ड में आवश्यक दस्तावेज़, शुल्क, पात्रता और प्रक्रिया की अवधि की पुष्टि नहीं है।"
+      },
+      "en": {
+        "summary": "Aaple Sarkar is the Government of Maharashtra service portal. Check the current official service entry for income-certificate availability, eligibility, documents and process. This record does not verify a current document list or timeline.",
+        "steps": "Open the portal; find the income certificate service; follow its current official instructions.",
+        "limitations": "Required documents, fees, eligibility and processing time have not been confirmed in this record."
+      }
+    }
+  },
+  {
+    "id": "mahafood-ration-card",
+    "title": "Apply for a new Maharashtra ration card",
+    "jurisdiction": "Maharashtra",
+    "status": "approved",
+    "source_title": "Food, Civil Supplies and Consumer Protection Department — Services",
+    "source_url": "https://mahafood.gov.in/en/services/",
+    "verified_at": "2026-10-13",
+    "keywords": [
+      "रेशन",
+      "राशन",
+      "रेशन कार्ड",
+      "ration",
+      "ration card",
+      "rationcard",
+      "rashan",
+      "rashan card",
+      "शिधापत्रिका",
+      "food supply",
+      "new ration card",
+      "apply ration card",
+      "application ration card",
+      "mujhe",
+      "batao",
+      "kaise",
+      "banaa",
+      "bana",
+      "banana",
+      "banwana",
+      "sakta",
+      "sakti",
+      "hun",
+      "ho",
+      "mein"
+    ],
+    "content": {
+      "mr": {
+        "summary": "नवीन रेशन कार्डसाठी महाराष्ट्र अन्न, नागरी पुरवठा व ग्राहक संरक्षण विभागाच्या सेवा पृष्ठावरील “Apply for New Ration Card” निवडून RCMS पोर्टलवर अर्ज करा.",
+        "steps": "RCMS वर प्रोफाइल तयार करा; नवीन रेशन कार्ड सेवा निवडा; फॉर्म भरा आणि पोर्टलने मागितलेली कागदपत्रे जोडून अर्ज सादर करा. अर्जापूर्वी पोर्टलवरील सध्याच्या सूचना तपासा.",
+        "limitations": "कागदपत्रांची यादी, पात्रता, शुल्क आणि मुदत अर्जाच्या प्रकारानुसार बदलू शकतात; या नोंदीत ती यादी पडताळलेली नाही."
+      },
+      "hi": {
+        "summary": "नए राशन कार्ड के लिए महाराष्ट्र खाद्य, नागरिक आपूर्ति एवं उपभोक्ता संरक्षण विभाग के सेवा पेज पर “Apply for New Ration Card” चुनकर RCMS पोर्टल पर आवेदन करें।",
+        "steps": "RCMS पर अपनी प्रोफ़ाइल बनाएँ, नया राशन कार्ड सेवा चुनें, फॉर्म भरें और पोर्टल द्वारा माँगे गए दस्तावेज़ जोड़कर आवेदन जमा करें। आवेदन से पहले पोर्टल के मौजूदा निर्देश देखें।",
+        "limitations": "दस्तावेज़ों की सूची, पात्रता, शुल्क और समय-सीमा आवेदन के प्रकार के अनुसार बदल सकते हैं; इस रिकॉर्ड में उनकी वर्तमान सूची सत्यापित नहीं है।"
+      },
+      "en": {
+        "summary": "To apply for a new ration card, use “Apply for New Ration Card” on the Maharashtra Food, Civil Supplies and Consumer Protection Department’s Services page; it opens the RCMS portal.",
+        "steps": "Create a profile on RCMS, choose the new ration-card service, complete the form, attach the documents requested by the portal, and submit. Review the current portal instructions before applying.",
+        "limitations": "Document lists, eligibility, fees, and timelines may vary by application type; this record does not verify the current list."
+      }
+    }
+  },
+  {
+    "id": "maharashtra-government-schemes",
+    "title": "Government schemes / शासकीय योजना / सरकारी योजनाएँ",
+    "jurisdiction": "Maharashtra",
+    "status": "approved",
+    "source_title": "Aaple Sarkar DBT Portal — Government of Maharashtra",
+    "source_url": "https://mahadbt.maharashtra.gov.in/",
+    "verified_at": "2026-10-12",
+    "keywords": [
+      "योजना",
+      "योजनाएँ",
+      "योजनाएं",
+      "scheme",
+      "schemes",
+      "government",
+      "सरकारी",
+      "सरकार",
+      "कहाँ",
+      "कुठे",
+      "where",
+      "find",
+      "शिष्यवृत्ती",
+      "पेन्शन",
+      "pension",
+      "scholarship"
+    ],
+    "content": {
+      "mr": {
+        "summary": "महाराष्ट्र शासनाच्या आपले सरकार DBT पोर्टलवरील 'All Schemes' विभागात विविध विभागांच्या योजना सूचीबद्ध आहेत. पोर्टलवर शिष्यवृत्ती, शेतकरी, पेन्शन, कामगार आणि इतर योजनांचे विभाग दिसतात.",
+        "steps": "पोर्टलवरील 'All Schemes' किंवा संबंधित योजना विभाग उघडा. योजनेची सध्याची पात्रता, अर्ज सुरू आहेत का, आणि अर्जाच्या अटी त्या योजनेच्या अधिकृत पानावर तपासा.",
+        "limitations": "योजना सूचीतील असणे म्हणजे अर्ज सध्या सुरू आहे किंवा तुम्ही पात्र आहात याची हमी नाही. विशिष्ट योजनेच्या अटी संबंधित विभागाकडून तपासा."
+      },
+      "hi": {
+        "summary": "महाराष्ट्र सरकार के आपले सरकार DBT पोर्टल के 'All Schemes' भाग में अलग-अलग विभागों की योजनाएँ सूचीबद्ध हैं। पोर्टल पर छात्रवृत्ति, किसान, पेंशन, श्रम और अन्य योजना श्रेणियाँ दिखाई देती हैं।",
+        "steps": "पोर्टल पर 'All Schemes' या संबंधित योजना विभाग खोलें। योजना की मौजूदा पात्रता, आवेदन खुले हैं या नहीं, और आवेदन की शर्तें उसके आधिकारिक पेज पर जाँचें।",
+        "limitations": "सूची में योजना होने का अर्थ यह नहीं कि आवेदन अभी खुले हैं या आप पात्र हैं। किसी खास योजना की शर्तें संबंधित विभाग से जाँचें।"
+      },
+      "en": {
+        "summary": "The Government of Maharashtra's Aaple Sarkar DBT Portal lists schemes from multiple departments under 'All Schemes', with categories including scholarships, farmer, pension, labour and other schemes.",
+        "steps": "Open 'All Schemes' or a relevant scheme category on the portal. Check the scheme's official page for current eligibility, whether applications are open, and application requirements.",
+        "limitations": "A scheme appearing in a list does not mean applications are currently open or that you are eligible. Confirm conditions with the responsible department."
+      }
+    }
+  },
+  {
+    "id": "maharashtra-capital",
+    "title": "Capital of Maharashtra",
+    "jurisdiction": "Maharashtra",
+    "status": "approved",
+    "source_title": "Maharashtra State Data Bank — Economic Survey 2022–23",
+    "source_url": "https://mahasdb.maharashtra.gov.in/files/DSP/home/ESM_2022_23_Eng_Book.pdf",
+    "verified_at": "2026-10-13",
+    "keywords": [
+      "capital",
+      "राजधानी",
+      "राजधानीचा",
+      "राजधानीची",
+      "rajdhani",
+      "maharashtra capital",
+      "capital of maharashtra"
+    ],
+    "content": {
+      "mr": {
+        "summary": "महाराष्ट्राची राजधानी मुंबई आहे.",
+        "steps": "लागू नाही.",
+        "limitations": "ही प्रशासकीय राजधानीविषयीची स्थिर माहिती आहे."
+      },
+      "hi": {
+        "summary": "महाराष्ट्र की राजधानी मुंबई है।",
+        "steps": "लागू नहीं।",
+        "limitations": "यह राज्य की राजधानी के बारे में स्थिर जानकारी है।"
+      },
+      "en": {
+        "summary": "Mumbai is the capital of Maharashtra.",
+        "steps": "Not applicable.",
+        "limitations": "This is stable information about the state capital."
+      }
+    }
+  },
+  {
+    "id": "maharashtra-school-education-minister",
+    "title": "School Education Minister of Maharashtra",
+    "jurisdiction": "Maharashtra",
+    "status": "approved",
+    "source_title": "Maharashtra State Board of Secondary and Higher Secondary Education — State Officials",
+    "source_url": "https://mahahsscboard.in/en",
+    "verified_at": "2026-09-01",
+    "keywords": [
+      "education minister",
+      "school education minister",
+      "school minister",
+      "शिक्षण मंत्री",
+      "शालेय शिक्षण मंत्री",
+      "शिक्षा मंत्री",
+      "स्कूल शिक्षा मंत्री",
+      "dadaji bhuse",
+      "dada bhuse"
+    ],
+    "content": {
+      "mr": {
+        "summary": "महाराष्ट्राचे शालेय शिक्षण मंत्री दादाजी भुसे आहेत.",
+        "steps": "लागू नाही.",
+        "limitations": "ही नोंद १ सप्टेंबर २०२६ रोजी राज्य मंडळाच्या अधिकृत संकेतस्थळावर पडताळली. मंत्रीपदे बदलू शकतात."
+      },
+      "hi": {
+        "summary": "महाराष्ट्र के स्कूल शिक्षा मंत्री दादाजी भुसे हैं।",
+        "steps": "लागू नहीं।",
+        "limitations": "यह जानकारी 1 सितंबर 2026 को राज्य बोर्ड की आधिकारिक वेबसाइट पर सत्यापित की गई। मंत्री पद बदल सकते हैं।"
+      },
+      "en": {
+        "summary": "Dadaji Bhuse is Maharashtra’s School Education Minister.",
+        "steps": "Not applicable.",
+        "limitations": "Verified on the State Board’s official website on 1 September 2026. Ministerial portfolios can change."
+      }
+    }
+  },
+  {
+    "id": "uidai-aadhaar-enrolment-update",
+    "title": "Aadhaar enrolment and update",
+    "jurisdiction": "India",
+    "status": "approved",
+    "source_title": "UIDAI — Enrolment and Update",
+    "source_url": "https://uidai.gov.in/hi/enrolment-and-update",
+    "verified_at": "2026-10-13",
+    "keywords": [
+      "aadhaar", "aadhar", "aadhaar card", "aadhar card", "enrolment", "enrollment",
+      "new aadhaar", "new aadhar", "apply aadhaar", "apply aadhar", "aadhaar update",
+      "aadhar update", "update aadhaar", "update aadhar", "आधार", "आधार कार्ड",
+      "आधार बनवाना", "आधार बनाना", "आधार अपडेट", "आधार में बदलाव", "aadhar banva",
+      "aadhaar banwana", "aadhar kaise banaye", "mobile update"
+    ],
+    "content": {
+      "mr": {
+        "summary": "नवीन आधार नोंदणी विनामूल्य आहे. जवळच्या अधिकृत आधार नोंदणी केंद्रात मूळ ओळख व पत्त्याचे पुरावे आणि वय/नातेसंबंधासाठी लागू कागदपत्रे घेऊन जा. नोंदणी फॉर्म भरा; केंद्रावर आवश्यक माहिती व बायोमेट्रिक्स नोंदवले जातील. तपशील काळजीपूर्वक पडताळून पावतीवरील Enrolment ID जतन करा.",
+        "steps": "पत्ता किंवा कागदपत्रे अपडेट करण्यासाठी myAadhaar पोर्टलवरील उपलब्ध ऑनलाइन सेवा वापरा; ऑनलाइन सेवेसाठी आधारला नोंदणीकृत मोबाइल क्रमांक आवश्यक असू शकतो. मोबाइल क्रमांक, नाव, जन्मतारीख, लिंग किंवा बायोमेट्रिक्ससारख्या बदलांसाठी उपलब्ध सेवेनुसार आधार केंद्रात जा. केंद्र शोधण्यासाठी https://bhuvan.nrsc.gov.in/aadhaar/ वापरा. स्वीकार्य कागदपत्रांची यादी https://uidai.gov.in/enrolment-documents येथे तपासा.",
+        "limitations": "कागदपत्रे व शुल्क बदलाच्या प्रकारानुसार वेगवेगळे असतात; जाण्यापूर्वी UIDAI ची सध्याची सूचना आणि केंद्रावरील शुल्क तपासा. UIDAI हेल्पलाइन: 1947."
+      },
+      "hi": {
+        "summary": "नया आधार बनवाने के लिए किसी अधिकृत आधार नामांकन केंद्र पर जाएँ। नामांकन निःशुल्क है। पहचान और पते के मूल प्रमाण, तथा जहाँ लागू हो जन्मतिथि या संबंध का प्रमाण साथ रखें। फॉर्म भरें; केंद्र पर ज़रूरी जानकारी और बायोमेट्रिक्स दर्ज होंगे। स्क्रीन पर विवरण जाँचकर नामांकन रसीद और Enrolment ID संभालकर रखें।",
+        "steps": "पता या दस्तावेज़ अपडेट करने के लिए myAadhaar पोर्टल पर उपलब्ध ऑनलाइन सेवा इस्तेमाल करें; ऑनलाइन सेवा के लिए आधार से जुड़ा मोबाइल नंबर चाहिए हो सकता है। मोबाइल नंबर, नाम, जन्मतिथि, लिंग या बायोमेट्रिक्स जैसे बदलाव के लिए उपलब्ध सेवा के अनुसार आधार केंद्र जाएँ। नज़दीकी केंद्र https://bhuvan.nrsc.gov.in/aadhaar/ पर खोजें। स्वीकार्य दस्तावेज़ों की सूची https://uidai.gov.in/enrolment-documents पर देखें।",
+        "limitations": "कागज़ात और शुल्क बदलाव के प्रकार के अनुसार अलग होते हैं; जाने से पहले UIDAI की मौजूदा सूचना और केंद्र पर शुल्क जाँचें। UIDAI हेल्पलाइन: 1947।"
+      },
+      "en": {
+        "summary": "For a new Aadhaar, visit an authorised Aadhaar enrolment centre; enrolment is free. Bring original identity and address proofs, plus date-of-birth or relationship proof where applicable. Complete the form, provide the required details and biometrics at the centre, verify the displayed details, and keep your acknowledgement slip and Enrolment ID.",
+        "steps": "For address or document updates, use the online service available on the myAadhaar portal; online services may require a mobile number registered with Aadhaar. For changes such as mobile number, name, date of birth, gender, or biometrics, visit a centre offering that service. Find centres at https://bhuvan.nrsc.gov.in/aadhaar/ and check accepted documents at https://uidai.gov.in/enrolment-documents.",
+        "limitations": "Required documents and fees depend on the change. Check UIDAI's current instructions and the centre's displayed fee before visiting. UIDAI helpline: 1947."
+      }
+    }
+  },
+  {
+    "id": "maharashtra-higher-technical-education-minister",
+    "title": "Higher and Technical Education Minister of Maharashtra",
+    "jurisdiction": "Maharashtra",
+    "status": "approved",
+    "source_title": "Higher and Technical Education Department — Government of Maharashtra",
+    "source_url": "https://dashboardhtedu.maharashtra.gov.in/home",
+    "verified_at": "2026-10-13",
+    "keywords": [
+      "education minister",
+      "higher education minister",
+      "technical education minister",
+      "उच्च शिक्षण मंत्री",
+      "तंत्र शिक्षण मंत्री",
+      "उच्च शिक्षा मंत्री",
+      "higher technical education",
+      "chandrakant patil"
+    ],
+    "content": {
+      "mr": {
+        "summary": "महाराष्ट्राचे उच्च व तंत्र शिक्षण मंत्री चंद्रकांत पाटील आहेत.",
+        "steps": "लागू नाही.",
+        "limitations": "ही माहिती १३ ऑक्टोबर २०२६ रोजी विभागाच्या अधिकृत संकेतस्थळावर पडताळली. मंत्रीपदे बदलू शकतात."
+      },
+      "hi": {
+        "summary": "महाराष्ट्र के उच्च और तकनीकी शिक्षा मंत्री चंद्रकांत पाटिल हैं।",
+        "steps": "लागू नहीं।",
+        "limitations": "यह जानकारी 13 अक्टूबर 2026 को विभाग की आधिकारिक वेबसाइट पर सत्यापित की गई। मंत्री पद बदल सकते हैं।"
+      },
+      "en": {
+        "summary": "Chandrakant Patil is Maharashtra’s Minister for Higher and Technical Education.",
+        "steps": "Not applicable.",
+        "limitations": "Verified on the department’s official website on 13 October 2026. Ministerial portfolios can change."
+      }
+    }
+  }
+]
