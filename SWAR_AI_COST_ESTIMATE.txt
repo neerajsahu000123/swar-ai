@@ -1,0 +1,66 @@
+SWAR_AI — PRACTICAL PROJECT COST ESTIMATE
+Prepared: 15 October 2026
+Currency: Indian rupees (INR)
+Planning scenario: 100,000 questions per month
+
+IMPORTANT
+These figures are planning estimates, not a supplier quote or guaranteed bill. Usage, model pricing, developer rates, exchange rates, taxes, and hosting requirements can change. Get written quotes before hiring or committing to a production contract.
+
+SCENARIO ASSUMPTIONS
+- 100,000 total user questions each month.
+- 60% are text questions and 40% are voice conversations.
+- A typical voice turn includes around 10 seconds of user speech and 15 seconds of spoken AI response.
+- Text prompts average about 3,000–10,000 input tokens and 250 output tokens.
+- Gemini Search grounding is OFF, as in the current example configuration.
+- USD conversion is rounded to about ₹95 per US dollar.
+- This estimate is for extending the existing SWAR_AI prototype into a public pilot. It is not the cost of building an entirely new product from scratch.
+
+A. ONE-TIME MAKING / LAUNCH-READINESS CHARGE
+Estimated effort: about 15–25 working days.
+Estimated cost: ₹1.5-2.0 lakh.
+
+Includes an estimate for production configuration, deployment setup, testing, fixing launch-blocking issues, and reviewing common answers and source links. It does not include major new features such as mobile apps, user accounts, a government-service transaction integration, or a full administration dashboard.
+
+Published Indian software developer rates vary by experience and supplier. This estimate uses a lower-to-mid range and should be confirmed with a written scope and quote.
+
+B. RECURRING YEARLY COSTS AT 100,000 QUESTIONS/MONTH
+
+1. Gemini API usage (text and voice)
+   Estimated: About ₹ 1 lakh per year.
+   Based on the current published rates for Gemini 3.5 Flash-Lite text and Gemini 2.5 Flash Native Audio, under the assumptions above. Actual cost depends on real token usage and voice duration.
+
+2. Web hosting
+   Starting estimate: about ₹20,000 per year for one 1 CPU / 2 GB web service, using the currently listed approximate exchange rate above.
+   This is a starting instance, not a guarantee it will handle every traffic peak. Load testing may show that additional instances or a larger plan are required; each instance adds cost.
+
+3. Software and content maintenance
+   Estimated: ₹3 lakh per year.
+   Planning basis: roughly 15–25 developer hours per month for bug fixes, dependency/API changes, monitoring and deployment support, plus8–12 hours per month to review important service information and source links.
+   This is part-time planned maintenance. It does not include 24/7 support, a staffed call centre, major feature work, or a full-time team.
+
+ESTIMATED TOTAL
+- Recurring operating cost after launch: approximately ₹3 lakh–₹4.5 lakh per year.
+- First year including making/launch-readiness: approximately ₹6.5 lakh.
+- A practical planning reserve for the first year: about ₹8 lakh–₹10 lakh, before taxes, payment conversion fees, additional hosting, and any major new features.
+
+IMPORTANT OPTIONAL SEARCH-GROUNDING COST
+The estimates above assume Google Search grounding remains disabled. Current Gemini 3.x pricing lists 5,000 free grounding requests per month, then $14 per 1,000 requests. If every one of 100,000 monthly questions triggers one grounded search, the extra charge could be about $1,330/month (roughly ₹1.26 lakh/month or ₹15.2 lakh/year), after the included requests. Measure actual grounding calls before enabling it at scale. The app currently retrieves source pages through its own backend retrieval path when grounding is off.
+
+NOT INCLUDED
+- GST, foreign exchange/card fees, or future price changes.
+- Extra Render instances, database, persistent storage, bandwidth overages, monitoring products, custom domain, or backup services.
+- Database and account work: current chat history is saved in each user's browser, not in a shared server database.
+- 24/7 human support, legal/privacy review, security audit, or government data agreements.
+- Government application fees, travel costs, document fees, or service-centre charges.
+- Government processing time. SWAR_AI explains information and links sources; it does not submit applications or speed up official approvals.
+
+REFERENCE PRICES (checked 15 October 2026)
+Gemini API pricing:
+https://ai.google.dev/gemini-api/docs/pricing
+
+Gemini Live API context and billing guidance:
+https://ai.google.dev/gemini-api/docs/live-api/best-practices
+
+Indicative India developer-rate article (market rates vary; not an official tariff):
+https://itsolvez.com/blog/software-development-hourly-rates-india
+
